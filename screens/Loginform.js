@@ -33,7 +33,8 @@ const Loginform = ({ navigation }) => {
     const submit = () => {
         console.log(userName)
         console.log(password)
-        navigation.navigate("Home", {Name : `${userName}`})
+        navigation.navigate("Map")
+        // , {Name : `${userName}`}
     }
 
     return (
